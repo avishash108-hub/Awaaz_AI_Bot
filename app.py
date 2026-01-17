@@ -1,6 +1,9 @@
 from flask import Flask, request
+import requests
+import os
 
 app = Flask(__name__)
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 @app.route("/")
 def home():
@@ -9,7 +12,8 @@ def home():
 def telegram_webhook():
     data = request.get_json()
     chat_id = data["message"]["chat"]["id"]
-    text = data["message"].get("text", "")
+    text_receive = data["message"].get("text", "")
+     
 
     reply = "Hello 👋 I am Awaaz. I'm here to help you."
     send_message(chat_id, reply)
@@ -19,11 +23,12 @@ def telegram_webhook():
 def send_messages(chat_id, text):
     url = f"https://api.telegram.org/bot7673865028:AAE4uebFECz0y7Gzg_7tB1KWLNzcPwKBw4g/sendMessage"
     payload = {
-        "chat_id" : chat_id
-        "text" : text_to_send
+        "chat_id" : chat_id,
+        "text" : reply
     }
     requests.post(url, json=payload)
     
+
 
 
 

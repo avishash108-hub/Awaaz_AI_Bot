@@ -20,7 +20,7 @@ def telegram_webhook():
     return "OK", 200
 
     
-def send_message(chat_id, text):
+def send_message(chat_id, reply):
     url = f"https://api.telegram.org/bot7673865028:AAE4uebFECz0y7Gzg_7tB1KWLNzcPwKBw4g/sendMessage"
     payload = {
         "chat_id" : chat_id,
@@ -28,6 +28,7 @@ def send_message(chat_id, text):
     }
     requests.post(url, json=payload)
     
+
 
 
 

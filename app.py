@@ -20,9 +20,10 @@ def send_messages(chat_id, text):
     url = f"https://api.telegram.org/bot7673865028:AAE4uebFECz0y7Gzg_7tB1KWLNzcPwKBw4g/sendMessage"
     payload = {
         "chat_id" : chat_id
-        "text" : text
+        "text" : text_to_send
     }
     requests.post(url, json=payload)
     
+
 
 

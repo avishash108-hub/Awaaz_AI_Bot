@@ -12,15 +12,15 @@ def home():
 def telegram_webhook():
     data = request.get_json()
     chat_id = data["message"]["chat"]["id"]
-    text_receive = data["message"].get("text", "")
+    text_received = data["message"].get("text", "")
      
 
-    reply = "Hello 👋 I am Awaaz. I'm here to help you."
+    reply = "Hello! I am Awaaz. I'm here to help you."
     send_message(chat_id, reply)
     return "OK", 200
 
     
-def send_messages(chat_id, text):
+def send_message(chat_id, text):
     url = f"https://api.telegram.org/bot7673865028:AAE4uebFECz0y7Gzg_7tB1KWLNzcPwKBw4g/sendMessage"
     payload = {
         "chat_id" : chat_id,
@@ -28,6 +28,7 @@ def send_messages(chat_id, text):
     }
     requests.post(url, json=payload)
     
+
 
 
 

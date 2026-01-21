@@ -77,6 +77,7 @@ Team Name: Team Astitva
 # Future Scope
 - Multilingual and voice-based support to increase accessibility
 - Improve emergency response of the bot
+- Improve intents and responses
 - Region-specific resources and shelters information (by integrating Google Map API)
 - Improved child support
 

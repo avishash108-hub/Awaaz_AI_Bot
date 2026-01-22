@@ -49,7 +49,9 @@ User anonymity is a core design principle, not an afterthought
 
 # Environment Variables
 BOT_TOKEN = telegram_bot_token
-add here another env
+GOOGLE_APPLICATION_CREDENTIALS_JSON
+DIALOGFLOW_PROJECT_ID
+
 
 # API Routes
 - `GET /` — Server status check  
@@ -82,4 +84,6 @@ Team Name: Team Astitva
 - Improved child support
 
 # License
-This project is currently not licensed and is intended for hackathon and demonstration purposes only.
+This project is released under the MIT License as part of an open‑source hackathon submission.
+
+

@@ -71,6 +71,11 @@ educational, awareness, and demonstration purposes only.
 services. Users are encouraged to reach out to official helplines or local
 authorities in critical situations.
 
+### Security
+All API keys and credentials are managed via environment variables.
+No secrets or private keys are committed to the repository.
+
+
 # Team
 Team Name: Team Astitva
 - Avisha Sharma : Backend / Research

@@ -59,13 +59,14 @@ def telegram_webhook():
 
     
 def send_message(chat_id, reply):
-    url = f"https://api.telegram.org/bot7673865028:AAE4uebFECz0y7Gzg_7tB1KWLNzcPwKBw4g/sendMessage"
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     payload = {
         "chat_id" : chat_id,
         "text" : reply
     }
     requests.post(url, json=payload)
     
+
 
 
 

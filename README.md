@@ -63,6 +63,7 @@ DIALOGFLOW_PROJECT_ID
 - No storage of sensitive user data
 - Emotion-first responses before informational guidance
 - Safe handling of sensitive topics such as abuse and neglect
+- Intent-based system in order to make sure the information provided to user is reliable and verified
 
 # Disclaimer
 ~ This project was developed as part of a hackathon and is intended for

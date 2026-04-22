@@ -1,5 +1,5 @@
 # Awaaz_AI_Bot
-### Team Astitva
+### Team Techie
 > A Telegram-based support chatbot that provides immediate emotional assistance,
 > legal awareness, and guidance to verified support resources for individuals
 > affected by domestic violence, in a gender-neutral and inclusive manner.
@@ -77,7 +77,7 @@ No secrets or private keys are committed to the repository.
 
 
 # Team
-Team Name: Team Astitva
+Team Name: Team Techie
 - Avisha Sharma : Backend / Research
 - Bhuvi Gupta : NLP / Content
 

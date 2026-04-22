@@ -53,10 +53,6 @@ GOOGLE_APPLICATION_CREDENTIALS_JSON
 DIALOGFLOW_PROJECT_ID
 
 
-# API Routes
-- `GET /` — Server status check  
-- `POST /webhook` — Receives Telegram webhook updates
-
 # Design Principles
 - Gender-neutral and inclusive communication
 - Privacy-first and anonymous usage
